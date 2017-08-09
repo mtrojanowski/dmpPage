@@ -5,7 +5,7 @@
 
     <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  
+
     {% if page.tags %}
     <meta name="keywords" content="{{ page.tags | join: ', ' | escape }}" />
     {% elsif page.keywords %}
@@ -17,13 +17,15 @@
     <meta name="HandheldFriendly" content="True">
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
-	
-    {% include ogp.html %}	
-	{% include twitter-meta.html %}	
-	{% include citation_meta.html %}	
+
+    {% include ogp.html %}
+	{% include twitter-meta.html %}
+	{% include citation_meta.html %}
 
     <link rel="stylesheet" href="{{ "/css/screen.css" | absolute_url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | absolute_url  }}">
+
+    <link href="https://fonts.googleapis.com/css?family=Skranji:700" rel="stylesheet">
 
     <!-- https://github.com/joshbuchea/HEAD -->
     <link rel="icon" href="{{ "/assets/favicon-16.png" | absolute_url }}" sizes="16x16" type="image/png">
