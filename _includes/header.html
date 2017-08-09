@@ -8,8 +8,6 @@
     <h1 class="page-title"><a href="{{ "/" | absolute_url }}" title="{{ site.title }}">{{ site.title }}</a></h1>
     <h2 class="page-description">{{ site.subtitle }}</h2>
     <div class="nav">
-            <a class="page-link" href="{{ "/" | absolute_url }}" title="Home">Home</a>
-
             {% assign pages = site.pages | sort:"weight"  %}
             {% for my_page in pages %}
 
@@ -25,3 +23,14 @@
             {% endfor %}
     </div>
 </header>
+<div id="sponsors" class="md-card no-border">
+    <a href="http://vanaheim.pl/pl/" target="_new">
+        <img class="sponsor" src="{{ "/assets/loga/vanaheim.png" | absolute_url }}" alt="vanaheim" />
+    </a>
+    <a href="https://www.facebook.com/OrzolArtStudio/" target="_new">
+        <img class="sponsor" src="{{ "/assets/loga/orzolstudio.png" | absolute_url }}" alt="orzolstudio" />
+    </a>
+    <a href="http://forum.wfb-pol.org/viewtopic.php?f=110&t=47815&start=0" target="_new">
+        <img class="sponsor" src="{{ "/assets/loga/toczay.jpg" | absolute_url }}" alt="toczay" />
+    </a>
+</div>

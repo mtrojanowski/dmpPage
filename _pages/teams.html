@@ -1,0 +1,49 @@
+---
+layout:    default
+permalink: "/teams"
+author:    mtrojanowski
+keywords:  PTC 2017 teams
+title:     PTC 2017 Teams
+menutitle: TEAMS
+weight:    70
+excerpt:   The teams registered for the event.
+---
+{% assign teams = site.data.teams.teams %}
+
+<div class="md-card no-border">
+    <table class="teams">
+      <thead>
+        <tr>
+          <th rowspan="2">Team name</th>
+          <th rowspan="2">Country</th>
+          <th rowspan="2">Club</th>
+          <th colspan="10">Players</th>
+        </tr>
+        <tr>
+          <th>Player 1</th>
+          <th>Army</th>
+          <th>Player 2</th>
+          <th>Army</th>
+          <th>Player 3</th>
+          <th>Army</th>
+          <th>Player 4</th>
+          <th>Army</th>
+          <th>Player 5</th>
+          <th>Army</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for team in teams %}
+        <tr>
+          <td>{{ team.name }}</td>
+          <td>{{ team.country }}</td>
+          <td>{{ team.club }}</td>
+          {% for player in team.players %}
+            <td>{{ player.name }}</td>
+            <td>{{ player.army}}</td>
+          {% endfor %}
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+</div>

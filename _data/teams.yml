@@ -1,0 +1,15 @@
+teams:
+  - name: Team Germany
+    country: Germany
+    club: "-"
+    players:
+      - name: "Player 1"
+        army: "VC"
+      - name: "Player 2"
+        army: "O&G"
+      - name: "Player 3"
+        army: "VC"
+      - name: "Player 4"
+        army: "O&G"
+      - name: "Player 5"
+        army: "VC"
