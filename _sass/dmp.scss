@@ -11,3 +11,29 @@
     text-align: left;
   }
 }
+
+.teams {
+  text-align: left;
+
+  .row {
+    padding: 5px;
+  }
+
+  .teams-label {
+    text-align: right;
+  }
+
+  .teams-value {
+    font-weight: 700;
+  }
+
+  .team-even {
+    background-color: #f6f6f6;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #rules pre code {
+    font-size: 0.2em;
+  }
+}

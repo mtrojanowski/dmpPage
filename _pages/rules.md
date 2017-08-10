@@ -11,7 +11,8 @@ excerpt:   The Rulespack for the event.
 
 **Venue:** MOSiR sports hall, ul. Urszuli 22, Zielona Góra, Poland
 
-**Map**: [link to map](https://goo.gl/maps/nPCq9QfAS9M2​)
+**Map**: [link to map](https://goo.gl/maps/nPCq9QfAS9M2)
+
 **Date:** 26-27.08.2017
 
 **Format:** 5x 4500 points
@@ -192,7 +193,7 @@ Players under eighteen years old should bring the following declaration of liabi
 The declaration should be signed by a parent or a legal custodian.
 
 **Accommodation:**
-We don’t provide any accommodation, it’s up to you to fix one. Here is a list of different places where you can stay for the night in Zielona Gora: Accomodation in Zielona Gora​
+We don’t provide any accommodation, it’s up to you to fix one. Here is a list of different places where you can stay for the night in Zielona Gora: [link](https://docs.google.com/spreadsheets/d/1iBaGc8-HflnR5D28iHy6HYsmDEwOZyTEbCOhkUYrGa4)​
 
 **Evening party:**
 TBA

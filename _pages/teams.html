@@ -5,45 +5,38 @@ author:    mtrojanowski
 keywords:  PTC 2017 teams
 title:     PTC 2017 Teams
 menutitle: TEAMS
-weight:    70
+weight:    95
 excerpt:   The teams registered for the event.
 ---
 {% assign teams = site.data.teams.teams %}
 
-<div class="md-card no-border">
-    <table class="teams">
-      <thead>
-        <tr>
-          <th rowspan="2">Team name</th>
-          <th rowspan="2">Country</th>
-          <th rowspan="2">Club</th>
-          <th colspan="10">Players</th>
-        </tr>
-        <tr>
-          <th>Player 1</th>
-          <th>Army</th>
-          <th>Player 2</th>
-          <th>Army</th>
-          <th>Player 3</th>
-          <th>Army</th>
-          <th>Player 4</th>
-          <th>Army</th>
-          <th>Player 5</th>
-          <th>Army</th>
-        </tr>
-      </thead>
-      <tbody>
-        {% for team in teams %}
-        <tr>
-          <td>{{ team.name }}</td>
-          <td>{{ team.country }}</td>
-          <td>{{ team.club }}</td>
-          {% for player in team.players %}
-            <td>{{ player.name }}</td>
-            <td>{{ player.army}}</td>
-          {% endfor %}
-        </tr>
-        {% endfor %}
-      </tbody>
-    </table>
+<div class="md-card no-border container teams">
+  <div class="team-even">
+    <div class="row">
+        <div class="col-xs-1">1.</div>
+        <div class="col-xs-3 col-sm-2 col-md-2 col-lg-2 teams-label">Team</div>
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 teams-value">Germany</div>
+    </div>
+    <div class="row">
+        <div class="col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1 col-xs-3 col-sm-2 col-md-2 col-lg-2 teams-label">Country</div>
+        <div class="col-xs-8 col-sm-3 col-md-3 col-lg-3 teams-value">Germany</div>
+        <div class="col-xs-4 col-sm-2 col-md-2 col-lg-2 teams-label">Club</div>
+        <div class="col-xs-8 col-sm-4 col-md-4 col-lg-4 teams-value">-</div>
+    </div>
+    <div class="row">
+        <div class="col-xs-8 col-sm-4 col-md-3 col-lg-3 teams-value">Player 1</div>
+        <div class="col-xs-4 col-sm-2 col-md-1 col-lg-1">VC</div>
+        <div class="col-xs-8 col-sm-4 col-md-3 col-lg-3 teams-value">Player 2</div>
+        <div class="col-xs-4 col-sm-2 col-md-1 col-lg-1">VC</div>
+        <div class="col-xs-8 col-sm-4 col-md-3 col-lg-3 teams-value">Player 3</div>
+        <div class="col-xs-4 col-sm-2 col-md-1 col-lg-1">VC</div>
+    </div>
+    <div class="row">
+        <div class="col-xs-8 col-sm-4 col-md-3 col-lg-3 teams-value">Player 4</div>
+        <div class="col-xs-4 col-sm-2 col-md-1 col-lg-1">VC</div>
+        <div class="col-xs-8 col-sm-4 col-md-3 col-lg-3 teams-value">Player 5</div>
+        <div class="col-xs-4 col-sm-2 col-md-1 col-lg-1">VC</div>
+    </div>
+  </div>
+
 </div>
