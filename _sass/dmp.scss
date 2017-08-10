@@ -27,8 +27,39 @@
     font-weight: 700;
   }
 
+  .team {
+    margin-bottom: 1em;
+  }
+
   .team-even {
     background-color: #f6f6f6;
+  }
+
+  .team-odd {
+    background-color: #fafafa;
+  }
+
+  .teams-name {
+    font-size: 1.3em;
+    font-weight: 700;
+  }
+
+  .teams-no {
+    font-size: 1.3em;
+  }
+
+  .teams-players div {
+    padding: 0.5em 0;
+  }
+
+  .teams-player-name {
+    font-weight: 700;
+    border-top: 1px solid #e0e0f0;
+  }
+
+  .teams-army {
+    border-top: 1px solid #e0e0f0;
+    text-align: center;
   }
 }
 

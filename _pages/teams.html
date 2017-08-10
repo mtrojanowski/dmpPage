@@ -11,32 +11,33 @@ excerpt:   The teams registered for the event.
 {% assign teams = site.data.teams.teams %}
 
 <div class="md-card no-border container teams">
-  <div class="team-even">
-    <div class="row">
-        <div class="col-xs-1">1.</div>
-        <div class="col-xs-3 col-sm-2 col-md-2 col-lg-2 teams-label">Team</div>
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 teams-value">Germany</div>
+  {% for team in teams %}
+    {% assign tmp = forloop.index | modulo:2 %}
+    {% if tmp == 0 %}
+      {% assign teamClass = "team-even" %}
+    {% else %}
+      {% assign teamClass = "team-odd" %}
+    {% endif %}
+    <div class="team {{ teamClass }}">
+      <div class="row">
+          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 teams-no">{{ team.number }}</div>
+          <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 teams-name">{{ team.name }}</div>
+      </div>
+      <div class="row">
+          <div class="col-xs-4 col-sm-2 col-md-2 col-lg-2 teams-label">Country</div>
+          <div class="col-xs-8 col-sm-3 col-md-3 col-lg-3 teams-value">{{ team.country }}</div>
+          <div class="col-xs-4 col-sm-2 col-md-2 col-lg-2 teams-label">Club</div>
+          <div class="col-xs-8 col-sm-4 col-md-4 col-lg-4 teams-value">{{ team.club }}</div>
+      </div>
+      <div class="row teams-players">
+          {% for player in team.players %}
+                <div class="col-xs-8 col-sm-4 col-md-4 col-lg-4 teams-player-name">{{ player.name }}</div>
+                <div class="col-xs-4 col-sm-2 col-md-2 col-lg-2 teams-army">{{ player.army }}</div>
+                {% if forloop.index == 2 or forloop.index == 4 %}
+                  <div class="clearfix visible-sm-block visible-md-block visible-lg-block"></div>
+                {% endif %}
+          {% endfor %}
+      </div>
     </div>
-    <div class="row">
-        <div class="col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1 col-xs-3 col-sm-2 col-md-2 col-lg-2 teams-label">Country</div>
-        <div class="col-xs-8 col-sm-3 col-md-3 col-lg-3 teams-value">Germany</div>
-        <div class="col-xs-4 col-sm-2 col-md-2 col-lg-2 teams-label">Club</div>
-        <div class="col-xs-8 col-sm-4 col-md-4 col-lg-4 teams-value">-</div>
-    </div>
-    <div class="row">
-        <div class="col-xs-8 col-sm-4 col-md-3 col-lg-3 teams-value">Player 1</div>
-        <div class="col-xs-4 col-sm-2 col-md-1 col-lg-1">VC</div>
-        <div class="col-xs-8 col-sm-4 col-md-3 col-lg-3 teams-value">Player 2</div>
-        <div class="col-xs-4 col-sm-2 col-md-1 col-lg-1">VC</div>
-        <div class="col-xs-8 col-sm-4 col-md-3 col-lg-3 teams-value">Player 3</div>
-        <div class="col-xs-4 col-sm-2 col-md-1 col-lg-1">VC</div>
-    </div>
-    <div class="row">
-        <div class="col-xs-8 col-sm-4 col-md-3 col-lg-3 teams-value">Player 4</div>
-        <div class="col-xs-4 col-sm-2 col-md-1 col-lg-1">VC</div>
-        <div class="col-xs-8 col-sm-4 col-md-3 col-lg-3 teams-value">Player 5</div>
-        <div class="col-xs-4 col-sm-2 col-md-1 col-lg-1">VC</div>
-    </div>
-  </div>
-
+ {% endfor %}
 </div>

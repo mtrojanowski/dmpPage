@@ -1,15 +1,31 @@
 teams:
-  - name: Team Germany
+  - number: "1"
+    name: Team Germany
     country: Germany
     club: "-"
     players:
-      - name: "Player 1"
+      - name: "Paul 'Dekadenz' Feuerstake"
+        army: "WotDG"
+      - name: "Thomas 'Scrub' Ahlich"
+        army: "HbE"
+      - name: "Peter 'DucDeGuerre' Folle"
+        army: "VS"
+      - name: "Yannic 'Kumbum' Titgemeyer"
+        army: "EoS"
+      - name: "Frederick 'Frederick' Humcke"
+        army: "BH"
+  - number: "2"
+    name: Pięciu Wspaniałych Chłopców z Piekła Rodem
+    country: Poland
+    club: "ZKF Ad Astra"
+    players:
+      - name: "Maciej 'Snajper' Dobrowolski"
+        army: "SE"
+      - name: "Tomasz 'Chudy' Chudziński"
+        army: "DH"
+      - name: "Bartłomiej 'Fedek' Fedyczak"
         army: "VC"
-      - name: "Player 2"
-        army: "O&G"
-      - name: "Player 3"
-        army: "VC"
-      - name: "Player 4"
-        army: "O&G"
-      - name: "Player 5"
-        army: "VC"
+      - name: "Karol 'Carlito' Ruprecht"
+        army: "HbE"
+      - name: "Łukasz 'Żyłka' Żyłka"
+        army: "EoS"
