@@ -52,7 +52,7 @@ teams:
       - name: Michał Wiśniewski, Glegut
         army: KoE
       - name: Filip Głowacki, Elvis
-        army: Ogre Khans
+        army: OK
       - name: Edwin Trawiński, Dreef
         army: SA
       - name: Bartłomiej Lazurek, Lazur
@@ -97,7 +97,7 @@ teams:
       - name: Marcin Sommer, Semi
         army: HbE
       - name: Maciej Wysocki, Sill
-        army: Ogre Khans
+        army: OK
       - name: Mateusz Pudzianowski, Goboss
         army: SE
       - name: Przemek Jacko, Szary
@@ -189,7 +189,7 @@ teams:
       - name: Kacper Kozaczuk
         army: HbE
       - name: Jacek Płowaś
-        army: Ogre Khans
+        army: OK
       - name: Grzegorz Krusiński
         army: WotDG
       - name: Kamil Koziej
@@ -215,7 +215,7 @@ teams:
     club: Ósma Bila
     players:
       - name: Przemysław Debelial Wójcik
-        army: Ogre Khans
+        army: OK
       - name: Marcin Big Boss M. Sabo
         army: HbE
       - name: Jan Janek Ginkowski
@@ -298,7 +298,7 @@ teams:
       - name: Arkadiusz Nowakowski "Aro"
         army: VC
       - name: Jan Wieczór "Janek"
-        army: Ogre Khans
+        army: OK
   - number: "21"
     name: RyK International
     country: Poland/USA
@@ -339,7 +339,7 @@ teams:
       - name: Jarosław "Jarekk" Ciszak
         army: HbE
       - name: Mateusz "Podwys" Podwysocki
-        army: Ogre Khans
+        army: OK
       - name: Marcin "Młody Kocoń" Kocoń
         army: SA
       - name: Sebastian "Bober" Daszkiewicz
@@ -356,7 +356,7 @@ teams:
       - name: Mikołaj Choleszczyński
         army: VS
       - name: Maksymilian Blechert
-        army: Ogre Khans
+        army: OK
       - name: Łukasz Żabicki Żaba
         army: SA
   - number: "25"
@@ -384,7 +384,7 @@ teams:
       - name: Patryk "Mamut" Krzyżak
         army: VC
       - name: Jacek Kukulski
-        army: Ogre Khans
+        army: OK
       - name: Mateusz "Jawor" Jaworski
         army: DL
       - name: Krzysztof "Chester" Ocalewski
