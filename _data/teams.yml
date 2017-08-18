@@ -1,31 +1,451 @@
 teams:
   - number: "1"
+    name: Alfa Hromkočky
+    country: Czech Republic
+    club: Ogří Doupě
+    players:
+      - name: Michal Malý, Houba
+        army: DH
+      - name: Ondřej Mýtina, Vrinkl
+        army: KoE
+      - name: Adam Skřivánek, Evan
+        army: HbE
+      - name: Marek Bernard, El Berny
+        army: WotDG
+      - name: Jakub Klinský, Firstflash
+        army: OG
+  - number: "2"
+    name: Animosity Mediocre War Boys
+    country: Poland
+    club: Animosity Szczecin
+    players:
+      - name: Damian Ciarka, Ciara
+        army: SE
+      - name: Jakub Augustyn, August
+        army: VC
+      - name: Radosław Bednarski, Yeede
+        army: WotDG
+      - name: Michał Nawrot, Tofic
+        army: KoE
+      - name: Daniel Ciarka, Dancaarkiiel
+        army: SA
+  - number: "3"
+    name: Cojavim
+    country: Czech Republic
+    club:
+    players:
+      - name: Jan Puš, Naz-ghul
+        army: SE
+      - name: Petr Ambrož, Ampy
+        army: DL
+      - name: Matěj Malý, Malis
+        army: DH
+      - name: Jan Vajsejtl, Goblin
+        army: BH
+      - name: Tomáš Vavřiník, Mabool
+        army: HbE
+  - number: "4"
+    name: Czarne Wrony I
+    country: Poland
+    club: Czarne Wrony
+    players:
+      - name: Michał Wiśniewski, Glegut
+        army: KoE
+      - name: Filip Głowacki, Elvis
+        army: Ogre Khans
+      - name: Edwin Trawiński, Dreef
+        army: SA
+      - name: Bartłomiej Lazurek, Lazur
+        army: WotDG
+      - name: Jan Bodzioch, Pażdzioch
+        army: ID
+  - number: "5"
+    name: Czarne Wrony II
+    country: Poland
+    club: Czarne Wrony
+    players:
+      - name: Krzysztof Żelaźnicki "Offspringman"
+        army: ID
+      - name: Jakub Kłeczek “EmpGeX”
+        army: SA
+      - name: Artur Desperat "Crane"
+        army: HbE
+      - name: Marcin  Zajkowski "Talladil"
+        army: DL
+      - name: Norbert  Danielewski "Eliah91"
+        army: VS
+  - number: "6"
+    name: Czech Mates
+    country: Czech Republic
+    club:
+    players:
+      - name: Ondrej Maly, Malda
+        army: DE
+      - name: Ota Vitasek, Rhawn
+        army: HbE
+      - name: Filip Bartos, Sirkar
+        army: VC
+      - name: Frantisek Svec, Freezy
+        army: DH
+      - name: Ladislav Zich, Kyrys
+        army: KoE
+  - number: "7"
+    name: Drobne Wałeczki
+    country: Poland
+    club: Drobne Wałeczki
+    players:
+      - name: Marcin Sommer, Semi
+        army: HbE
+      - name: Maciej Wysocki, Sill
+        army: Ogre Khans
+      - name: Mateusz Pudzianowski, Goboss
+        army: SE
+      - name: Przemek Jacko, Szary
+        army: VS
+      - name: Bogumił Kułakowski, Bobson
+        army: BH
+  - number: "8"
+    name: Escobar sqad
+    country: Poland
+    club:
+    players:
+      - name: Maciej Siemianowski, Siemek
+        army: EoS
+      - name: Adam Staniszewski, Vodoo
+        army: WotDG
+      - name: Artur Siemianowski, Pocisk
+        army: VC
+      - name: Kacper Pielaszek
+        army: SA
+      - name: Krzysztof Chmielewski, Malfoj
+        army: DL
+  - number: "9"
+    name: Jeźdźcy Hardkoru "Green Team"
+    country: Poland
+    club: Jeźdźcy Hardkoru
+    players:
+      - name: Piotr Dębkowski, Dębek
+        army: WotDG
+      - name: Kacper Bucki, swieta_barbara
+        army: ID
+      - name: Krzysztof Fischer, Fisch
+        army: VS
+      - name: Adam Zielony, Zielony
+        army: KoE
+      - name: Tomasz Domagalski, Handełek
+        army: DH
+  - number: "10"
+    name: JH 3
+    country: Poland
+    club: Jeźdźcy Hardkoru
+    players:
+      - name: Marcin Lipiński, Lipek
+        army: DL
+      - name: Paweł Gąsiewski, Gąsior
+        army: VC
+      - name: Tomasz Tutaj, Tutaj
+        army: SE
+      - name: Michał Kołakowski, Kołata
+        army: BH
+      - name: Marcin Zakrzewski, Kalesoner
+        army: UD
+  - number: "11"
+    name: Legion I - Bocheńskie Wsparcie
+    country: Poland
+    club: Legion Kraków
+    players:
+      - name: Tomasz "GreMlin" Kanclerski
+        army: SE
+      - name: Rafał "DanrakH" Kępa
+        army: DH
+      - name: Paweł "PSz" Szczurek
+        army: OG
+      - name: Maciej "Kosa" Kos
+        army: HbE
+      - name: Piotr "Stone" Łańcucki
+        army: BH
+  - number: "12"
+    name: Make Way!
+    country: Poland
+    club: Make Way!
+    players:
+      - name: Błażej Luberadzki, Błażej
+        army: DL
+      - name: Jakub Borkowski, Mojżesz
+        army: DH
+      - name: Adrian Kukulski, Aku
+        army: WotDG
+      - name: Bartłomiej Rutkowski, Hoax
+        army: VS
+      - name: Edgar Czop, Ed
+        army: VC
+  - number: "13"
+    name: Moria
+    country: Poland
+    club: Moria
+    players:
+      - name: Wojciech Dudek
+        army: EoS
+      - name: Kacper Kozaczuk
+        army: HbE
+      - name: Jacek Płowaś
+        army: Ogre Khans
+      - name: Grzegorz Krusiński
+        army: WotDG
+      - name: Kamil Koziej
+        army: VS
+  - number: "14"
+    name: Ordin
+    country: Poland
+    club: Ordin
+    players:
+      - name: Jan Owczarczak, Szkodnik
+        army: HbE
+      - name: Adam Marciniak, Imrikko
+        army: SE
+      - name: Michał Waślicki, Michaś
+        army: SA
+      - name: Kacper Mąkosa, Kapeć
+        army: KoE
+      - name: Daniel Reszka
+        army: WotDG
+  - number: "15"
+    name: Ósma Bila
+    country: Poland
+    club: Ósma Bila
+    players:
+      - name: Przemysław Debelial Wójcik
+        army: Ogre Khans
+      - name: Marcin Big Boss M. Sabo
+        army: HbE
+      - name: Jan Janek Ginkowski
+        army: SA
+      - name: Artur Xargos Szymała
+        army: OG
+      - name: Łukasz Belial Paw
+        army: DL
+  - number: "16"
+    name: Ośmiornica Łódzka
+    country: Poland
+    club: Ośmiornica Łódzka
+    players:
+      - name: Marcin Dądela, Marvin
+        army: WotDG
+      - name: Konrad Urbański, Urban
+        army: VC
+      - name: Dominik Salachna, Galahad
+        army: ID
+      - name: Piotr Milski, Azurix
+        army: HbE
+      - name: Paweł Błaszczyk, Pablo
+        army: BH
+  - number: "17"
+    name: Pięciu Wspaniałych
+    country: Poland
+    club:
+    players:
+      - name: Bartłomiej Kołcun, woodspirit
+        army: DL
+      - name: Sebastian Szymczuk, pirrus
+        army: DH
+      - name: Jan Szymczuk
+        army: HbE
+      - name: Ernest Kołcun, koler
+        army: KoE
+      - name: Piotr Żejmo
+        army: UD
+  - number: "18"
+    name: Pięciu Wspaniałych Chłopców Z Piekła Rodem
+    country: Poland
+    club: Ad Astra
+    players:
+      - name: Maciej Dobrowolski, Snajper
+        army: SE
+      - name: Karol Ruprecht, Carlito
+        army: HbE
+      - name: Bartłomiej Fedyczak, Fedek
+        army: VC
+      - name: Tomasz Chudzinski, Hudy
+        army: DH
+      - name: Łukasz Żyłka, Zylas
+        army: EoS
+  - number: "19"
+    name: Rogaty Szczur "Elegancja Francja"
+    country: Poland
+    club: Rogaty Szczur
+    players:
+      - name: Piotr Szmajewski "Szmajson"
+        army: EoS
+      - name: Damian Bronowicki "Milczek"
+        army: KoE
+      - name: Piotr Kras "Wyrwena"
+        army: DH
+      - name: Jerzy Brzozowski "Furion"
+        army: HbE
+      - name: Emil Bykowski "Arthas"
+        army: VC
+  - number: "20"
+    name: Rogaty Szczur "Grecja Lukrecja"
+    country: Poland
+    club: Rogaty Szczur
+    players:
+      - name: Krzysztof Kowalczewski "Kisiel"
+        army: HbE
+      - name: Maciek Klaudel "Klaudel"
+        army: DE
+      - name: Jakub Owsiański "Deus"
+        army: VS
+      - name: Arkadiusz Nowakowski "Aro"
+        army: VC
+      - name: Jan Wieczór "Janek"
+        army: Ogre Khans
+  - number: "21"
+    name: RyK International
+    country: Poland/USA
+    club: RyK Medaliki
+    players:
+      - name: Sebastian Kuk, Master
+        army: HbE
+      - name: Jurand Szwaja, Jaaf
+        army: VS
+      - name: Sergiusz Skorek, Eldritch
+        army: VC
+      - name: Mateusz Dąsal, Bombaj
+        army: BH
+      - name: Łukasz Sasuła, Sasomir
+        army: EoS
+  - number: "22"
+    name: Snordin
+    country: Poland
+    club: Ordin & Snot
+    players:
+      - name: Michał 'Shino' Rusinek
+        army: OG
+      - name: Stanisław 'Crusader' Scheiner
+        army: BH
+      - name: Karol 'Młody' Pietrowicz
+        army: WotDG
+      - name: Łukasz 'Jagal' Jagalski
+        army: KoE
+      - name: Maciej 'Macias' Baliński
+        army: EoS
+  - number: "23"
+    name: SS II "Hańba Zeppelina"
+    country: Poland
+    club: Szybki Szpil
+    players:
+      - name: Przemysław "wind_sower" Karoń
+        army: KoE
+      - name: Jarosław "Jarekk" Ciszak
+        army: HbE
+      - name: Mateusz "Podwys" Podwysocki
+        army: Ogre Khans
+      - name: Marcin "Młody Kocoń" Kocoń
+        army: SA
+      - name: Sebastian "Bober" Daszkiewicz
+        army: VC
+  - number: "24"
+    name: Strefa Zero Poznań
+    country: Poland
+    club: Strefa Zero
+    players:
+      - name: Wojciech Soporowski Boja
+        army: VC
+      - name: Konrad Jankowski Klops
+        army: BH
+      - name: Mikołaj Choleszczyński
+        army: VS
+      - name: Maksymilian Blechert
+        army: Ogre Khans
+      - name: Łukasz Żabicki Żaba
+        army: SA
+  - number: "25"
+    name: Sweet Reform
+    country: Poland
+    club: Sweet Reform
+    players:
+      - name: Slayer Zabójców
+        army: DH
+      - name: Kangur
+        army: KoE
+      - name: Cerverius
+        army: DE
+      - name: Cezar
+        army: VC
+      - name: Pawlak
+        army: EoS
+  - number: "26"
+    name: Którym tramwajem na plażę?
+    country: Poland
+    club: Animosity Szczecin
+    players:
+      - name: Arkadiusz "Romek" Romański
+        army: DE
+      - name: Patryk "Mamut" Krzyżak
+        army: VC
+      - name: Jacek Kukulski
+        army: Ogre Khans
+      - name: Mateusz "Jawor" Jaworski
+        army: DL
+      - name: Krzysztof "Chester" Ocalewski
+        army: EoS
+  - number: "27"
+    name: SS MAGNES
+    country: Poland
+    club: Szybki Szpil
+    players:
+      - name: Filip Sklorz, Zeppelin
+        army: DE
+      - name: Marcin  Krzemień, Krzemi
+        army: WotDG
+      - name: Robert Martyniuk, Bercik"
+        army: HbE
+      - name: Marek  Kiełbasa, Solo
+        army: VS
+      - name: Piotr Borowski, Vezyr's Daemons
+        army: DL
+  - number: "28"
+    name: Szybki Szpil Pogromcy Warzywniaka
+    country: Poland
+    club: Szybki Szpil
+    players:
+      - name: Andrzej Bąk, AndrzejAndrzej
+        army: HbE
+      - name: Bartłomiej Dudek, Boltharion
+        army: EoS
+      - name: Paweł Nowak
+        army: DH
+      - name: Marek Rymarowicz, Niszczyciel
+        army: VS
+      - name: Marek Bąk, Ojciec
+        army: DL
+  - number: "29"
     name: Team Germany
     country: Germany
-    club: "-"
+    club: TGH
     players:
-      - name: "Paul 'Dekadenz' Feuerstake"
-        army: "WotDG"
-      - name: "Thomas 'Scrub' Ahlich"
-        army: "HbE"
-      - name: "Peter 'DucDeGuerre' Folle"
-        army: "VS"
-      - name: "Yannic 'Kumbum' Titgemeyer"
-        army: "EoS"
-      - name: "Frederick 'Frederick' Humcke"
-        army: "BH"
-  - number: "2"
-    name: Pięciu Wspaniałych Chłopców z Piekła Rodem
+      - name: Paul Feuerstake, Dekadenz
+        army: WotDG
+      - name: Thomas Ahlich, Scrub
+        army: VC
+      - name: Peter Folle, DucDeGuerre
+        army: VS
+      - name: Yannic Titgemeyer, Kumbum
+        army: DE
+      - name: Frederick Humcke, Frederick
+        army: DL
+  - number: "30"
+    name: Underdogs
     country: Poland
-    club: "ZKF Ad Astra"
+    club: Underdogs
     players:
-      - name: "Maciej 'Snajper' Dobrowolski"
-        army: "SE"
-      - name: "Tomasz 'Chudy' Chudziński"
-        army: "DH"
-      - name: "Bartłomiej 'Fedek' Fedyczak"
-        army: "VC"
-      - name: "Karol 'Carlito' Ruprecht"
-        army: "HbE"
-      - name: "Łukasz 'Żyłka' Żyłka"
-        army: "EoS"
+      - name: Piotr "Guldur" Kuczyński
+        army: DH
+      - name: Marek "Szaitis" Gmyrek
+        army: VC
+      - name: Tomasz "Laik" Gęgotek
+        army: SE
+      - name: Konrad 'Abrasus" Krystecki
+        army: ID
+      - name: Marcin "Kali" Szlasa-Rokicki
+        army: BH
