@@ -1,0 +1,39 @@
+---
+layout:    default
+permalink: "/rosters/7/2"
+author:    mtrojanowski
+keywords:  PTC 2017 teams
+title:     PTC 2017 Rosters
+excerpt:   A roster
+visible:   false
+---
+{% assign teamNo   = 7 %}
+{% assign playerNo = 2 %}
+
+{% assign team = site.data.teams.teams[teamNo] %}
+{% assign player = team.players[playerNo] %}
+
+
+<div class="md-card no-border container teams">
+    <div class="team {{ teamClass }}">
+      <div class="row">
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            {{ player.name }}
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            {{ team.name }}
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            {{ player.army_full }}
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+            <pre>
+{% for line in player.roster %}
+{{ line }}{% endfor %}
+            </pre>
+          </div>
+    </div>
+  </div>
+</div>

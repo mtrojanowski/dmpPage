@@ -1,0 +1,47 @@
+---
+layout:    default
+permalink: "/all_rosters"
+author:    mtrojanowski
+keywords:  PTC 2017 rosters
+title:     PTC 2017 Rosters
+excerpt:   All roster
+menutitle: ROSTERS
+weight:    105
+---
+
+{% assign teams = site.data.teams.teams %}
+
+
+<div class="md-card no-border container teams">
+  {% for team in teams %}
+    <div class="team {{ teamClass }}">
+      <h2>{{ team.name }}</h2>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          {{ team.country }}
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          {{ team.club }}
+        </div>
+      </div>
+      {% for player in team.players %}
+          <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                {{ player.name }}
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                {{ player.army_full }}
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+              <pre>
+{% for line in player.roster %}
+{{ line }}{% endfor %}
+              </pre>
+            </div>
+          </div>
+    {% endfor %}
+  </div>
+  {% endfor %}
+</div>
