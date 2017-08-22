@@ -239,6 +239,7 @@ teams:
         army: KoE
         army_full: Kingdom of Equitaine
         roster:
+          - "The Blessing: Favour of the King"
           - "Duke on Barded Warhorse: General, Questing Oath – Duke, Audacity, Great Weapon, ,Shield  Crusader's Helm, Sprout of Rebirth, 615pts"
           - "Damsel on Barder Warorse: Wizard Apprentince, Druidism, 3 Learned Spells, Ring of Fire, 400pts"
           - "Paladin on Barded Warhorse: Battle Standard Bearer,  Daring, Lance, War Standard, Hardened Shield, Lucky Charm, 337 pts"
@@ -488,22 +489,22 @@ teams:
         army: DH
         army_full: Dwarven Holds
         roster:
-          - "490 - King, General, Shield, Rune of Fury, Rune of Destruction, 2x Rune of Iron, Rune of Shielding, Rune of Smashing, Rune of the Forge"
-          - "455 - Thane, BSB,Great Weapon, Shield Bearers, Aether Icon, Aether Loathestone, Rune of Infamy, Rune of Iron, Rune of the Forge"
-          - "746 - 29x Greybeard, FCG, Shield, War standard"
+          - "480 - King, General, Shield, Rune of Fury, Rune of Destruction, 2x Rune of Iron, Rune of Shielding, Rune of Smashing"
+          - "445 - Thane, BSB,Great Weapon, Shield Bearers, Aether Icon, Aether Loathestone, Rune of Infamy, Rune of Iron"
+          - "770 - 30x Greybeard, FCG, Shield, War standard"
           - "882 - 29x Deep Watch, FCG, Runic Standard of Dismay"
           - "735 - 25x Clan Marksman, FCG, Crossbows, Great Weapons"
           - "160 - Attack Copter"
           - "160 - Attack Copter"
-          - "270 - Cannon"
+          - "270 - 2x Cannon"
           - "320 - Runecrafted Catapult"
-          - "280 - Organ gun"
-          - "Total: 4498"
+          - "Total: 4492"
       - name: Ladislav Zich, Kyrys
         army: KoE
         army_full: Kingdom of Equitaine
         roster:
-          - "525 - Duke, General, barded warhorse, shield, Viertue of Renown, Crusaders Helm, Potion of Swiftness, Blessed Sword"
+          - "Blessing: Favour of Grail"
+          - "525 - Duke, General, barded warhorse, shield, Virtue of Renown, Crusaders Helm, Potion of Swiftness, Blessed Sword"
           - "377 - BSB, barded warhorse, Virtue of daring, Banner of Speed, Grail oath, lance, hardened shield"
           - "585 - Damsel, master, 4 spells, Essence of Free Mind (Divination/druidism). Skullsplitter. Ring of Fire. warhorse"
           - "260 - 3x5 knights aspirant, mus"
@@ -1098,7 +1099,7 @@ teams:
           - "8 Barbarian Horseman of True Chaos; Light Armour; Shield; Standard = 252 Pts"
           - "8 Barbarian Horseman of True Chaos; Light Armour; Shield; Standard = 252 Pts"
           - "10 Chosen of Lust; Mark of Dark Gods (Lust); Halberd; Shield; Standard Aether Icon = 435 Pts"
-          - "10 Chosen of Lust; Mark of Dark Gods (Lust); Halberd; Shield; Champion = 380 Pts"
+          - "10 Chosen of Lust; Mark of Dark Gods (Lust); Halberd; Shield; Standard = 380 Pts"
           - "Battle Shrine (Priest) of Wrath = 260 Pts"
           - "3 Once-Chosen of Wrath, Flail = 266 Pts"
           - "3 Once-Chosen of Wrath, Flail = 266 Pts"
@@ -2055,7 +2056,7 @@ teams:
           - "1 Firstborn Warlord  620 Pts Great Weapon; Light Armour; Bluffer's Helm; Talisman of Supreme Shielding , Raptor"
           - "1 Firstborn Veteran  460 Pts Great Weapon; Battle Standard; Armour of Destiny; Lucky Charm ,Raptor"
 
-          - "3 x 10 Saurian Jaguar Warriors 190 Pts Jaguar Warriors; Shield"
+          - "3 x 10 Saurian Jaguar Warriors Musician 190 Pts No Totem Animal; Shield"
           - "2 x 10 Saurian Warriors 170 Pts No Totem Animal; Shield"
           - "2 x 5 Skink Hunters 130 Pts Blowpipe; Vanguard"
           - "5 Chameleons 140 Pts"
@@ -2552,8 +2553,8 @@ teams:
           - "2 x 2 Organ Gun: Rune Crafted 325"
           - "Total Army Cost: 4495.0"
       - name: Marek Rymarowicz, Niszczyciel
-        army: VS
-        army_full: The Vermin Swarm
+        army: SA
+        army_full: Saurian Ancients
         roster:
           - "Firstborn Warlord : Raptor ,General, Great Weapon, Glitering Cuirass, Divine Icon, Talisman of Supreme Shielding @ 600"
           - "Firstborn Warlord: Raptor ,Armour of Destiny, Dragonfire Gem,Fleshrender @ 505"
@@ -2563,7 +2564,7 @@ teams:
           - "1 x 8 Chameleons @ 200"
           - "1 x 3 Ramphodon Riders: Shield @ 265"
           - "1 x 2 Weapon Beasts - Spearback @ 240"
-          - "1 x 5 Caimans: Musician, Great Weapon @ 470"
+          - "1 x 5 Caimans: Musician, Great Weapon, Champion @ 470"
           - "1 x  Taurosaur :  Giant Blowpipes, Sharp Horns @ 450"
           - "Models in Army: 74"
           - "Total Army Cost: 4500.0"
@@ -2755,7 +2756,7 @@ teams:
           - "471 - 24x Wildhorn Herd, Paired Weapons, Throwing Weapons, Standard, Musician, Champion, Ambush, Banner of Discipline, Blooded Horn Totem"
           - "100 - 10x Mongrel Raiders"
           - "430 - 2x 1 Gortach"
-          - "520 - 20x Longhorn Herd, Great Weapon, Heavy Armour, Standard, Musician, Banner of Speed"
+          - "520 - 20x Longhorn Herd, Great Weapon, Heavy Armour, Standard, Musician, Champion, Banner of Speed"
           - "160 - 2x 5 Centaurs, Paired Weapons, Light Armour, Shield"
           - "100 - 1 Razortusk Herd"
           - "Total: 4500"
