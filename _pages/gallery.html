@@ -1,0 +1,29 @@
+---
+layout:    default
+permalink: "/gallery"
+author:    mtrojanowski
+keywords:  PTC 2017 gallery
+title:     PTC 2017 Gallery
+excerpt:   Image gallery
+menutitle: GALLERY
+weight:    110
+isGallery: true
+---
+
+{% assign images = site.data.gallery.images %}
+
+<div class="md-card no-border container teams">
+  <div class="row">
+  {% for image in images %}
+    {% assign tmp = forloop.index | modulo:3 %}
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+      <a href="{{ "/images/" | append: image.name | absolute_url }}" data-lightbox="gallery"><img src="{{ "/images/thumb/" | append: image.name | absolute_url }}" alt="gallery_image"/></a>
+    </div>
+    {% if tmp == 0 %}
+      </div><div class="row">
+    {% endif %}
+  {% endfor %}
+</div>
+</div>
+
+<script src="{{ "/js/lightbox.js" | absolute_url }}"></script>

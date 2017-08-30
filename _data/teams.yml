@@ -1415,7 +1415,7 @@ teams:
         army: HbE
         army_full: Highborn Elves
         roster:
-          - "Prince: [general], [royal humtsman], [lion chariot], [longbow], [shield], [deamon hunter’s helm], [dusk stone], [spear of the blazing dawn] 716 pts"
+          - "Prince: [general], [royal humtsman], [lion chariot], [shield], [deamon hunter’s helm], [dusk stone], [potion of strength] 722 pts"
           - "Commander : [BSB], [high warden of the flame], [fire phoenix], [longbow], [shield], [beast-bane halberd] 838 pts"
           - "1 x 20 Archers : [musician] 380 pts"
           - "2 x 5 Elein Reavers : [bow] 190 pts"
@@ -1423,7 +1423,7 @@ teams:
           - "3 x 1 Sea Guard Reaper 180 pts"
           - "1 x 21 Lion Guard : [FCG] 587 pts"
           - "1 x 20 Sword Masters : [FCG], [aether icon] 625 pts"
-          - "Total : 4494 pts"
+          - "Total : 4500 pts"
       - name: Ernest Kołcun, koler
         army: KoE
         army_full: Kingdom of Equitaine
@@ -1450,13 +1450,13 @@ teams:
 
           - "30 Skeleton Archers: Aspen Bow Musician 560 pts"
 
-          - "51 Skeletons: Spear; Shield; Standard; Musician 816 pts"
+          - "51 Skeletons: Spear; Shield; Veteran Standard; Musician; Champion; War Standard 866 pts"
 
           - "30 Nercopolis Guard:  Paired Weapons; FCG Rending Banner 935 pts"
-          - "2x1 Charnel Catapult 230 Pts"
+          - "2x1 Charnel Catapult 200 Pts"
           - "1 Colossus: Giant Aspen Bow 440 pts"
 
-          - "Total: 4500"
+          - "Total: 4490"
 
   - number: "18"
     name: Pięciu Wspaniałych Chłopców Z Piekła Rodem

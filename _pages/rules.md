@@ -21,14 +21,6 @@ excerpt:   The Rulespack for the event.
 
 Every team with a prepaid gets **10 Battle Points**.
 
-In order to pay the entry fee you can:
-* transfer the money to bank account:
-  * Receiver: Michal Trojanowski
-  * Bank: Alior Bank
-  * SWIFT / BIC: ALBPPLPW
-  * IBAN: 37 2490 0005 0000 4001 0023 6265
-* pay with PayPal to michal@kmt-studio.pl​
-
 **Entries:** To enter your team use the entry form: [link​](https://goo.gl/forms/iMGK4ttayO8qaK0A3)
 
 The final date for an entry is 16.08.2017 by midnight. For a valid entry the team gets **25 Battle Points**.
